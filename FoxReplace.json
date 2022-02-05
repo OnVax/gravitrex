@@ -1,0 +1,1420 @@
+{
+  "version": "2.1",
+  "groups": [
+    {
+      "name": "https://eu-cretfc-tools-dub.dub.proxy.amazon.com",
+      "urls": [
+        "https://*",
+        "https://eu-cretfc-tools-dub.dub.proxy.amazon.com/gravis/returnUnit/*"
+      ],
+      "substitutions": [
+        {
+          "input": " Q. Что описывает клиент? ",
+          "inputType": "text",
+          "output": "Q. Co opisuje klient?",
+          "caseSensitive": false
+        },
+        {
+          "input": "Q. Про що говорить клієнт?",
+          "inputType": "text",
+          "output": "Q. Co opisuje klient?",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Функціональне пошкодження.",
+          "inputType": "text",
+          "output": "A. Uszkodzenie funkcjonalne.",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Функциональные повреждения.",
+          "inputType": "text",
+          "output": "A. Uszkodzenie funkcjonalne.",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Косметические повреждения.",
+          "inputType": "text",
+          "output": "A. Uszkodzenie kosmetyczne.",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Косметичне пошкодження.",
+          "inputType": "text",
+          "output": "A. Uszkodzenie kosmetyczne.",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Думка / Без дефектів.",
+          "inputType": "text",
+          "output": "A. Opinia / Brak wad. ",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Мнение/нет дефектов.",
+          "inputType": "text",
+          "output": "A. Opinia / Brak wad. ",
+          "caseSensitive": false
+        },
+        {
+          "input": "Q. Тип пломби",
+          "inputType": "text",
+          "output": "Q. Rodzaj plomby",
+          "caseSensitive": false
+        },
+        {
+          "input": "Q. Тип запечатывания",
+          "inputType": "text",
+          "output": "Q. Rodzaj plomby",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Пломба відсутня.",
+          "inputType": "text",
+          "output": "A. Brak plomby.",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Не запечатано.",
+          "inputType": "text",
+          "output": "A. Brak plomby.",
+          "caseSensitive": false
+        },
+        {
+          "input": "Q. Тип упаковки",
+          "inputType": "text",
+          "output": "Q. Rodzaj opakowania",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Прозора коробка.",
+          "inputType": "text",
+          "output": "A. Przezroczyste pudelko.",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Непрозора коробка.",
+          "inputType": "text",
+          "output": "A. Nieprzezroczyste pudelko.",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Opaque box.",
+          "inputType": "text",
+          "output": "A. Nieprzezroczyste pudelko.",
+          "caseSensitive": false
+        },
+        {
+          "input": "Q. Тип пошкодження упаковки",
+          "inputType": "text",
+          "output": "Q. Rodzaj uszkodzenia paczki",
+          "caseSensitive": false
+        },
+        {
+          "input": "Q. Тип повреждения упаковки",
+          "inputType": "text",
+          "output": "Q. Rodzaj uszkodzenia paczki",
+          "caseSensitive": false
+        },
+        {
+          "input": "Q. Тип повреждения единицы товара ",
+          "inputType": "text",
+          "output": "Q. Rodzaj uszkodzenia przedmiotu",
+          "caseSensitive": false
+        },
+        {
+          "input": "Q. Тип пошкодження позиції ",
+          "inputType": "text",
+          "output": "Q. Rodzaj uszkodzenia przedmiotu",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Немає.",
+          "inputType": "text",
+          "output": "A. Brak.",
+          "caseSensitive": false
+        },
+        {
+          "input": "Q. Розмір пошкодження",
+          "inputType": "text",
+          "output": "Q. Rozmiar uszkodzenia",
+          "caseSensitive": false
+        },
+        {
+          "input": "Q. Размер повреждения",
+          "inputType": "text",
+          "output": "Q. Rozmiar uszkodzenia",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Ознаки використання.",
+          "inputType": "text",
+          "output": "A. Oznaki uzytkowania.",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Признаки использования",
+          "inputType": "text",
+          "output": "A. Oznaki uzytkowania.",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Подряпина.",
+          "inputType": "text",
+          "output": "A. Zarysowanie.",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Штрих-код.",
+          "inputType": "text",
+          "output": "A. Kod kreskowy.",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Zip Tie.",
+          "inputType": "text",
+          "output": "A. Opaska zaciskowa.",
+          "caseSensitive": false
+        },
+        {
+          "input": "Q. Чи пошкоджено пломбу на упаковці з позицією? ",
+          "inputType": "text",
+          "output": "Q. Czy plomba jest uszkodzona?",
+          "caseSensitive": false
+        },
+        {
+          "input": "Q. Повреждено ли запечатывание упаковки с единицей товара?",
+          "inputType": "text",
+          "output": "Q. Czy plomba jest uszkodzona?",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Ні.",
+          "inputType": "text",
+          "output": "A. Nie.",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Нет.",
+          "inputType": "text",
+          "output": "A. Nie.",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Да.",
+          "inputType": "text",
+          "output": "A. Tak.",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Так.",
+          "inputType": "text",
+          "output": "A. Tak.",
+          "caseSensitive": false
+        },
+        {
+          "input": "Q. Отсутствуют ли детали или аксессуары у этой единицы товара? ",
+          "inputType": "text",
+          "output": "Q. Czy brakuje części przedmiotu lub akcesoriów?",
+          "caseSensitive": false
+        },
+        {
+          "input": "Q. Чи відсутні деталі або аксесуари до позиції? ",
+          "inputType": "text",
+          "output": "Q. Czy brakuje części przedmiotu lub akcesoriów?",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Отсутствует коробка.",
+          "inputType": "text",
+          "output": "A. Brakujace opakowanie.",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Відсутня коробка.",
+          "inputType": "text",
+          "output": "A. Brakujace opakowanie.",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Відсутні деталі.",
+          "inputType": "text",
+          "output": "A. Brakujace czesci.",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Дірка.",
+          "inputType": "text",
+          "output": "A. Dziura.",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Слои ленты.",
+          "inputType": "text",
+          "output": "A. Warstwy taśmy.",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Шари стрічки.",
+          "inputType": "text",
+          "output": "A. Warstwy taśmy.",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Скотч НЕ є закриваючим механізмом.",
+          "inputType": "text",
+          "output": "A. Tasma nie jest zamknieciem.",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Поліетиленовий пакет.",
+          "inputType": "text",
+          "output": "A. Polybag.",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Полиэтиленовый мешок.",
+          "inputType": "text",
+          "output": "A. Polybag.",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Термозбіжна плівка.",
+          "inputType": "text",
+          "output": "A. Folia termokurczliwa.",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Термоусадочная обертка.",
+          "inputType": "text",
+          "output": "A. Folia termokurczliwa.",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Термошов.",
+          "inputType": "text",
+          "output": "A. Zgrzew.",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Скотч є закриваючим механізмом.",
+          "inputType": "text",
+          "output": "A. Tasma jest zamknieciem.",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Tape is closing mechanism.",
+          "inputType": "text",
+          "output": "A. Tasma jest zamknieciem.",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Інформація про клієнта.",
+          "inputType": "text",
+          "output": "A. Іnformacje o kliencie.",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Информация о клиенте.",
+          "inputType": "text",
+          "output": "A. Іnformacje o kliencie.",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Зламано.",
+          "inputType": "text",
+          "output": "A. Zniszczenie.",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Непрозора пластикова упаковка.",
+          "inputType": "text",
+          "output": "A. Nieprzezroczyste plastikowe opakowanie.",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Плями.",
+          "inputType": "text",
+          "output": "A. Plamy.",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Пятна.",
+          "inputType": "text",
+          "output": "A. Plamy.",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Заводська пломба.",
+          "inputType": "text",
+          "output": "A. Plomba fabryczna.",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Заводское запечатывание.",
+          "inputType": "text",
+          "output": "A. Plomba fabryczna.",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Порез или разрыв.",
+          "inputType": "text",
+          "output": "A. Naciecie.",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Клеевой диск.",
+          "inputType": "text",
+          "output": "A. Tasma samoprzylepna.",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Кругла наклейка.",
+          "inputType": "text",
+          "output": "A. Tasma samoprzylepna.",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Сгиб или излом.",
+          "inputType": "text",
+          "output": "A. Zgiecie/zgniecenie.",
+          "caseSensitive": false
+        },
+        {
+          "input": " Q. Додайте пошкодження обкладинки ",
+          "inputType": "text",
+          "output": "Q. Uszkodzenie okladki.",
+          "caseSensitive": false
+        },
+        {
+          "input": " Q. Повідомте про пошкодження сторінки ",
+          "inputType": "text",
+          "output": "Q. Uszkodzenie strony.",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Згин/зминання.",
+          "inputType": "text",
+          "output": "A. Zgiecie/zgniecenie.",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Сломан.",
+          "inputType": "text",
+          "output": "A. Zniszczenie.",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Отверстие.",
+          "inputType": "text",
+          "output": "A. Dziura.",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Скобы.",
+          "inputType": "text",
+          "output": "A. Zszywki.",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Написание.",
+          "inputType": "text",
+          "output": "A. Napis.",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Напис.",
+          "inputType": "text",
+          "output": "A. Napis.",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Скрепляющий ремень.",
+          "inputType": "text",
+          "output": "A. Opaska zaciskowa.",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Стяжка.",
+          "inputType": "text",
+          "output": "A. Opaska zaciskowa.",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Прозорий брендований пакет.",
+          "inputType": "text",
+          "output": "A. Przezroczysta torba oznaczona marka.",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Клей.",
+          "inputType": "text",
+          "output": "A. Кlej.",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Bigger than 2x badge length.",
+          "inputType": "text",
+          "output": "A. Wieksze niz 2x dlugosc plakietki.",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Удвічі довше за бейдж.",
+          "inputType": "text",
+          "output": "A. Wieksze niz 2x dlugosc plakietki.",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Більше за ширину бейджа.",
+          "inputType": "text",
+          "output": "A. Wieksze niz szerokosc plakietki.",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Badge width.",
+          "inputType": "text",
+          "output": "A. Szerokosc plakietki.",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. У ширину бейджа.",
+          "inputType": "text",
+          "output": "A. Szerokosc plakietki.",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. 1/2 Badge width.",
+          "inputType": "text",
+          "output": "A. 1/2 szerokosci plakietki.",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. 1/2 ширини бейджа.",
+          "inputType": "text",
+          "output": "A. 1/2 szerokosci plakietki.",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Довжина бейджа.",
+          "inputType": "text",
+          "output": "A. Dlugosc plakietki",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Зім’ятий кут.",
+          "inputType": "text",
+          "output": "A. Zgnieciony naroznik.",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Зламано внутрішню опору упаковки.",
+          "inputType": "text",
+          "output": "A. Uszkodzone zabezpieczenie wewnątrz opakowania.",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Розріз/розрив.",
+          "inputType": "text",
+          "output": "A. Naciecie.",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Метка.",
+          "inputType": "text",
+          "output": "A. Мetka.",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Непрозорий брендований пакет.",
+          "inputType": "text",
+          "output": "A. Nieprzezroczysta torba oznaczona marka.",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Царапины.",
+          "inputType": "text",
+          "output": "A. Zadrapanie.",
+          "caseSensitive": false
+        },
+        {
+          "input": "Q. Товару бракує аксесуарів або носіїв у комплекті? ",
+          "inputType": "text",
+          "output": "Q. Czy brakuje akcesoriów/dodatków lub są one uszkodzone?",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Запах.",
+          "inputType": "text",
+          "output": "A. Zapach.",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Волосы.",
+          "inputType": "text",
+          "output": "A. Wlosy.",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Crushed corner.",
+          "inputType": "text",
+          "output": "A. Zgnieciony naroznik",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Вмятина.",
+          "inputType": "text",
+          "output": "A. Wgniecenie.",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Стрічка для обв’язування.",
+          "inputType": "text",
+          "output": "A. Tasma mocujaca.",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Прозора пластикова упаковка",
+          "inputType": "text",
+          "output": "A. Przezroczyste plastikowe opakowanie.",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Подряпина або потертість.",
+          "inputType": "text",
+          "output": "A. Zadrapanie/zarysowanie",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Бирка.",
+          "inputType": "text",
+          "output": "A. Metka.",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Волосся, відбитки пальців або ворсинки.",
+          "inputType": "text",
+          "output": "A. Wlosy, odciski palcow,klaczki.",
+          "caseSensitive": false
+        },
+        {
+          "input": "Q. Место повреждения единицы товара ",
+          "inputType": "text",
+          "output": "Q. Wielkosc uszkodzenia przedmiotu ",
+          "caseSensitive": false
+        },
+        {
+          "input": " Q. Добавить повреждение оболочки ",
+          "inputType": "text",
+          "output": "Q. Dodaj uszkodzenie okładki",
+          "caseSensitive": false
+        },
+        {
+          "input": "Q. Добавить повреждение страницы ",
+          "inputType": "text",
+          "output": "Q. Dodaj uszkodzenie strony",
+          "caseSensitive": false
+        },
+        {
+          "input": "Q. Отсутствует ли какие-либо аксессуары или комплектные носители информации для единицы товара? ",
+          "inputType": "text",
+          "output": "Q. Czy brakuje akcesoriów/dodatków lub są one uszkodzone?",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Зламаність або тріщина.",
+          "inputType": "text",
+          "output": "A. Zlamane, pekniete.",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Гігієнічні проблеми.",
+          "inputType": "text",
+          "output": "A. Problem higieniczny.",
+          "caseSensitive": false
+        },
+        {
+          "input": "Q. Місце пошкодження позиції ",
+          "inputType": "text",
+          "output": "Q. Miejsce uszkodzenia przedmiotu.",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Сліди/Плями.",
+          "inputType": "text",
+          "output": "A. Skazy/plamy.",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Гигиенические ограничения.",
+          "inputType": "text",
+          "output": "A. Problem higieniczny.",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Упаковка не закривається.",
+          "inputType": "text",
+          "output": "A. Nie mozna zamknac paczki.",
+          "caseSensitive": false
+        },
+        {
+          "input": " A. Зім'ятий кут / край.",
+          "inputType": "text",
+          "output": "A. Zgnieciony naroznik.",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Вм’ятина.",
+          "inputType": "text",
+          "output": "A. Wgniecenie.",
+          "caseSensitive": false
+        }
+      ],
+      "html": "none",
+      "enabled": true,
+      "mode": "auto&manual"
+    },
+    {
+      "name": "",
+      "urls": [
+        "https://trex-prod-eu.aka.amazon.com/"
+      ],
+      "substitutions": [
+        {
+          "input": "Написание",
+          "inputType": "text",
+          "output": "Napis",
+          "caseSensitive": false
+        },
+        {
+          "input": "Інше (немає в списку)",
+          "inputType": "text",
+          "output": "Inne (brak na liscie)",
+          "caseSensitive": false
+        },
+        {
+          "input": "Волосся, відбитки пальців або ворсинки",
+          "inputType": "text",
+          "output": "Włosy / odciski palców / kłaczki",
+          "caseSensitive": false
+        },
+        {
+          "input": "Скотч є закриваючим механізмом",
+          "inputType": "text",
+          "output": "Taśma jest zamknięciem.",
+          "caseSensitive": false
+        },
+        {
+          "input": "Скотч НЕ є закриваючим механізмом",
+          "inputType": "text",
+          "output": "Taśma NIE jest zamknięciem.",
+          "caseSensitive": false
+        },
+        {
+          "input": "Тип запечатывания:",
+          "inputType": "text",
+          "output": "Typ plomby:",
+          "caseSensitive": false
+        },
+        {
+          "input": "Тип пломби:",
+          "inputType": "text",
+          "output": "Typ plomby:",
+          "caseSensitive": false
+        },
+        {
+          "input": "Тип упаковки:",
+          "inputType": "text",
+          "output": "Typ opakowania:",
+          "caseSensitive": false
+        },
+        {
+          "input": "Тип пошкодження упаковки:",
+          "inputType": "text",
+          "output": "Rodzaj uszkodzenia opakowania:",
+          "caseSensitive": false
+        },
+        {
+          "input": "Розмір пошкодження:",
+          "inputType": "text",
+          "output": "Rozmiar uszkodzenia:",
+          "caseSensitive": false
+        },
+        {
+          "input": "Тип повреждения упаковки:",
+          "inputType": "text",
+          "output": "Rodzaj uszkodzenia opakowania:",
+          "caseSensitive": false
+        },
+        {
+          "input": "Нет",
+          "inputType": "text",
+          "output": "Nie",
+          "caseSensitive": true
+        },
+        {
+          "input": "Opaque branded bag",
+          "inputType": "text",
+          "output": "Nieprzezroczysta torba oznaczona marka",
+          "caseSensitive": false
+        },
+        {
+          "input": "Размер повреждения:",
+          "inputType": "text",
+          "output": "Rozmiar uszkodzenia:",
+          "caseSensitive": false
+        },
+        {
+          "input": "Не запечатано",
+          "inputType": "text",
+          "output": "Brak plomby",
+          "caseSensitive": false
+        },
+        {
+          "input": "Порез или разрыв",
+          "inputType": "text",
+          "output": "Rozciecie rozerwanie",
+          "caseSensitive": false
+        },
+        {
+          "input": "Bigger than 2x badge length",
+          "inputType": "text",
+          "output": "Wieksze niz 2 dlugosci badge'a",
+          "caseSensitive": false
+        },
+        {
+          "input": "Opaque box",
+          "inputType": "text",
+          "output": "Nieprzezroczyste opakowanie",
+          "caseSensitive": false
+        },
+        {
+          "input": "Клеевой диск",
+          "inputType": "text",
+          "output": "Tasma samoprzylepna",
+          "caseSensitive": false
+        },
+        {
+          "input": "Повреждено ли запечатывание упаковки с единицей товара?",
+          "inputType": "text",
+          "output": "Czy plomba jest uszkodzona?",
+          "caseSensitive": false
+        },
+        {
+          "input": "Crushed corner",
+          "inputType": "text",
+          "output": "Zgnieciony naroznik",
+          "caseSensitive": false
+        },
+        {
+          "input": "Пятна",
+          "inputType": "text",
+          "output": "Plamy",
+          "caseSensitive": false
+        },
+        {
+          "input": "Слои ленты",
+          "inputType": "text",
+          "output": "Warstwy tasmy",
+          "caseSensitive": false
+        },
+        {
+          "input": "2x badge length",
+          "inputType": "text",
+          "output": "2x dlugosc badge'a",
+          "caseSensitive": false
+        },
+        {
+          "input": "Badge width",
+          "inputType": "text",
+          "output": "Szerokosc badge'a",
+          "caseSensitive": false
+        },
+        {
+          "input": "Непрозора коробка",
+          "inputType": "text",
+          "output": "Nieprzezroczyste pudelko",
+          "caseSensitive": false
+        },
+        {
+          "input": "Шари стрічки",
+          "inputType": "text",
+          "output": "Warstwy tasmy",
+          "caseSensitive": false
+        },
+        {
+          "input": "Відсутня коробка",
+          "inputType": "text",
+          "output": "Brakujace opakowanie",
+          "caseSensitive": false
+        },
+        {
+          "input": "Немає",
+          "inputType": "text",
+          "output": "Brak",
+          "caseSensitive": false
+        },
+        {
+          "input": "Тип пошкодження позиції:",
+          "inputType": "text",
+          "output": "Rodzaj uszkodzenia przedmiotu:",
+          "caseSensitive": false
+        },
+        {
+          "input": "Чи відсутні деталі або аксесуари до позиції?:",
+          "inputType": "text",
+          "output": "Czy brakuje części przedmiotu lub akcesoriów?",
+          "caseSensitive": false
+        },
+        {
+          "input": "Ні",
+          "inputType": "text",
+          "output": "Nie",
+          "caseSensitive": true
+        },
+        {
+          "input": "Пломба відсутня",
+          "inputType": "text",
+          "output": "Brak plomby",
+          "caseSensitive": false
+        },
+        {
+          "input": "Штрих-код",
+          "inputType": "text",
+          "output": "Kod kreskowy",
+          "caseSensitive": false
+        },
+        {
+          "input": "Напис",
+          "inputType": "text",
+          "output": "Napis",
+          "caseSensitive": false
+        },
+        {
+          "input": "Про що говорить клієнт?:",
+          "inputType": "text",
+          "output": "Komentarz klienta:",
+          "caseSensitive": false
+        },
+        {
+          "input": "Думка / Без дефектів",
+          "inputType": "text",
+          "output": "Opinia / brak wad",
+          "caseSensitive": false
+        },
+        {
+          "input": "Термозбіжна плівка",
+          "inputType": "text",
+          "output": "Folia termokurczliwa",
+          "caseSensitive": false
+        },
+        {
+          "input": "Чи пошкоджено пломбу на упаковці з позицією?:",
+          "inputType": "text",
+          "output": "Czy plomba jest uszkodzona?:",
+          "caseSensitive": false
+        },
+        {
+          "input": "Отсутствует коробка",
+          "inputType": "text",
+          "output": "Brakujace opakowanie",
+          "caseSensitive": false
+        },
+        {
+          "input": "Заводська пломба",
+          "inputType": "text",
+          "output": "Plomba fabryczna",
+          "caseSensitive": false
+        },
+        {
+          "input": "У ширину бейджа",
+          "inputType": "text",
+          "output": "Szerokosc badge'a",
+          "caseSensitive": false
+        },
+        {
+          "input": "Інформація про клієнта",
+          "inputType": "text",
+          "output": "Informacje o kliencie",
+          "caseSensitive": false
+        },
+        {
+          "input": "Плями",
+          "inputType": "text",
+          "output": "Plamy",
+          "caseSensitive": false
+        },
+        {
+          "input": "Дірка",
+          "inputType": "text",
+          "output": "Dziura",
+          "caseSensitive": false
+        },
+        {
+          "input": "Скотч є закриваючим мехаNieзмом",
+          "inputType": "text",
+          "output": "Tasma jest zamknieciem",
+          "caseSensitive": false
+        },
+        {
+          "input": "Функціональне пошкодження",
+          "inputType": "text",
+          "output": "Uszkodzenie funkcjonalne",
+          "caseSensitive": false
+        },
+        {
+          "input": "Мнение/Nie дефектов",
+          "inputType": "text",
+          "output": "Opinia / brak wady",
+          "caseSensitive": false
+        },
+        {
+          "input": "Что описывает клиент?:",
+          "inputType": "text",
+          "output": "Co opisuje klient?:",
+          "caseSensitive": false
+        },
+        {
+          "input": "Заводское запечатывание",
+          "inputType": "text",
+          "output": "Plomba fabryczna",
+          "caseSensitive": false
+        },
+        {
+          "input": "Opaque plastic packaging",
+          "inputType": "text",
+          "output": "Nieprzezroczyste plasikowe opakowanie",
+          "caseSensitive": false
+        },
+        {
+          "input": "Кругла наклейка",
+          "inputType": "text",
+          "output": "Tasma samoprzylepna",
+          "caseSensitive": false
+        },
+        {
+          "input": "Так",
+          "inputType": "text",
+          "output": "Tak",
+          "caseSensitive": false
+        },
+        {
+          "input": "Зламано внутрішню опору упаковки",
+          "inputType": "text",
+          "output": "Uszkodzone zabezpieczenie wewnątrz opakowania.",
+          "caseSensitive": false
+        },
+        {
+          "input": "Довжина бейджа",
+          "inputType": "text",
+          "output": "Dlugosc badge'a",
+          "caseSensitive": false
+        },
+        {
+          "input": "Информация о клиенте",
+          "inputType": "text",
+          "output": "Informacje o kliencie",
+          "caseSensitive": false
+        },
+        {
+          "input": "Structural damage",
+          "inputType": "text",
+          "output": "Uszkodzenie konstrukcji struktury",
+          "caseSensitive": false
+        },
+        {
+          "input": "Тип повреждения единицы товара",
+          "inputType": "text",
+          "output": "Rodzaj uszkodzenia przedmiotu",
+          "caseSensitive": false
+        },
+        {
+          "input": "Функциональные повреждения",
+          "inputType": "text",
+          "output": "Uszkodzenie funkcjonalne",
+          "caseSensitive": false
+        },
+        {
+          "input": "Полиэтиленовый мешок",
+          "inputType": "text",
+          "output": "Poly-bag",
+          "caseSensitive": false
+        },
+        {
+          "input": "Отсутствуют ли детали или аксессуары у этой единицы товара",
+          "inputType": "text",
+          "output": "Czy brakuje części przedmiotu lub akcesoriów",
+          "caseSensitive": false
+        },
+        {
+          "input": "Поліетиленовий пакет",
+          "inputType": "text",
+          "output": "Poly-bag",
+          "caseSensitive": false
+        },
+        {
+          "input": "Подряпина або потертість",
+          "inputType": "text",
+          "output": "Zadrapanie/zarysowanie",
+          "caseSensitive": false
+        },
+        {
+          "input": "Прозорий брендований пакет",
+          "inputType": "text",
+          "output": "Przezroczysta torba oznaczona marka",
+          "caseSensitive": false
+        },
+        {
+          "input": "Втручання у внутрішню упаковку",
+          "inputType": "text",
+          "output": "Naruszone opakowanie wewnętrzne",
+          "caseSensitive": false
+        },
+        {
+          "input": "Клей",
+          "inputType": "text",
+          "output": "Klej",
+          "caseSensitive": false
+        },
+        {
+          "input": "Додайте пошкодження обкладинки",
+          "inputType": "text",
+          "output": "Rodzaj uszkodzenia okladki",
+          "caseSensitive": false
+        },
+        {
+          "input": "Повідомте про пошкодження сторінки",
+          "inputType": "text",
+          "output": "Rodzaj uszkodzenia strony",
+          "caseSensitive": false
+        },
+        {
+          "input": "Товару бракує аксесуарів або носіїв у комплекті",
+          "inputType": "text",
+          "output": "Czy brakuje części przedmiotu lub akcesoriów",
+          "caseSensitive": false
+        },
+        {
+          "input": "Косметические повреждения",
+          "inputType": "text",
+          "output": "Uszkodzenie kosmetyczne",
+          "caseSensitive": false
+        },
+        {
+          "input": "Broken / Cracked",
+          "inputType": "text",
+          "output": "Zlamanie / pekniecie",
+          "caseSensitive": false
+        },
+        {
+          "input": "Прозора коробка",
+          "inputType": "text",
+          "output": "Przezroczyste pudelko",
+          "caseSensitive": false
+        },
+        {
+          "input": "Розріз/розрив",
+          "inputType": "text",
+          "output": "Naciecie",
+          "caseSensitive": false
+        },
+        {
+          "input": "Зім'ятий кут / край",
+          "inputType": "text",
+          "output": "Zgnieciony naroznik",
+          "caseSensitive": false
+        },
+        {
+          "input": "Згин/зминання",
+          "inputType": "text",
+          "output": "Zgiecie/zgniecenie",
+          "caseSensitive": false
+        },
+        {
+          "input": "1/2 ширини бейджа",
+          "inputType": "text",
+          "output": "1/2 szerokosc badge'a",
+          "caseSensitive": false
+        },
+        {
+          "input": "Вмятина",
+          "inputType": "text",
+          "output": "Wgniecenie",
+          "caseSensitive": false
+        },
+        {
+          "input": "Більш ніж удвічі довше за бейдж",
+          "inputType": "text",
+          "output": "Wieksze niz 2x dlugosc badge'a",
+          "caseSensitive": false
+        },
+        {
+          "input": "Стрічка для обв’язування",
+          "inputType": "text",
+          "output": "Tasma mocujaca",
+          "caseSensitive": false
+        },
+        {
+          "input": "Волосся",
+          "inputType": "text",
+          "output": "Wlosy",
+          "caseSensitive": false
+        },
+        {
+          "input": "Гігієнічні проблеми",
+          "inputType": "text",
+          "output": "Problem higieniczny",
+          "caseSensitive": false
+        },
+        {
+          "input": "Удвічі довше за бейдж",
+          "inputType": "text",
+          "output": "2x dlugosc badge'a",
+          "caseSensitive": false
+        },
+        {
+          "input": "Вм’ятина",
+          "inputType": "text",
+          "output": "Wgniecenie",
+          "caseSensitive": false
+        },
+        {
+          "input": "Без коментарів",
+          "inputType": "text",
+          "output": "Bez komentarza",
+          "caseSensitive": false
+        },
+        {
+          "input": "Да",
+          "inputType": "text",
+          "output": "Tak",
+          "caseSensitive": false
+        },
+        {
+          "input": "Отверстие",
+          "inputType": "text",
+          "output": "Dziura",
+          "caseSensitive": false
+        },
+        {
+          "input": "Tape is closing mechanism",
+          "inputType": "text",
+          "output": "Tasma jest zamknieciem",
+          "caseSensitive": false
+        },
+        {
+          "input": "Зламаність або тріщина",
+          "inputType": "text",
+          "output": "Zlamanie / pekniecie",
+          "caseSensitive": false
+        },
+        {
+          "input": "Місце пошкодження позиції",
+          "inputType": "text",
+          "output": "Miejsce uszkodzenia przedmiotu",
+          "caseSensitive": false
+        },
+        {
+          "input": "Бирка",
+          "inputType": "text",
+          "output": "Metka",
+          "caseSensitive": false
+        },
+        {
+          "input": "Немає",
+          "inputType": "text",
+          "output": "Brak",
+          "caseSensitive": false
+        },
+        {
+          "input": "Стяжка",
+          "inputType": "text",
+          "output": "Opaska zaciskowa",
+          "caseSensitive": false
+        },
+        {
+          "input": "Косметичне пошкодження",
+          "inputType": "text",
+          "output": "Uszkodzenie kosmetyczne",
+          "caseSensitive": false
+        },
+        {
+          "input": "Badge length",
+          "inputType": "text",
+          "output": "Dlugosc badge'a",
+          "caseSensitive": false
+        },
+        {
+          "input": "Зім’ятий кут",
+          "inputType": "text",
+          "output": "Zgnieciony naroznik",
+          "caseSensitive": false
+        },
+        {
+          "input": "Термошов",
+          "inputType": "text",
+          "output": "Zgrzew",
+          "caseSensitive": false
+        },
+        {
+          "input": "Customer information",
+          "inputType": "text",
+          "output": "Informacje o kliencie",
+          "caseSensitive": false
+        },
+        {
+          "input": "Layers of Tape",
+          "inputType": "text",
+          "output": "Warstwy tasmy",
+          "caseSensitive": false
+        },
+        {
+          "input": "Seal type",
+          "inputType": "text",
+          "output": "Rodzaj plomby",
+          "caseSensitive": false
+        },
+        {
+          "input": "Is the item packaging seal broken",
+          "inputType": "text",
+          "output": "Czy plomba jest uszkodzona",
+          "caseSensitive": false
+        },
+        {
+          "input": "Package type",
+          "inputType": "text",
+          "output": "Rodzaj opakowania",
+          "caseSensitive": false
+        },
+        {
+          "input": "Package Damage Type",
+          "inputType": "text",
+          "output": "Rodzaj uszkodzenia paczki",
+          "caseSensitive": false
+        },
+        {
+          "input": "Damage size",
+          "inputType": "text",
+          "output": "Wielkosc uszkodzenia",
+          "caseSensitive": false
+        },
+        {
+          "input": "Item Damage Type",
+          "inputType": "text",
+          "output": "Rodzaj uszkodzenia przedmiotu",
+          "caseSensitive": false
+        },
+        {
+          "input": "None",
+          "inputType": "text",
+          "output": "Brak",
+          "caseSensitive": false
+        },
+        {
+          "input": "Is the item missing any parts or accessories",
+          "inputType": "text",
+          "output": "Czy brakuje części przedmiotu lub akcesoriów",
+          "caseSensitive": false
+        },
+        {
+          "input": "No",
+          "inputType": "wholewords",
+          "output": "Nie",
+          "caseSensitive": true
+        },
+        {
+          "input": "Yes",
+          "inputType": "wholewords",
+          "output": "Tak",
+          "caseSensitive": true
+        },
+        {
+          "input": "Сгиб или излом",
+          "inputType": "text",
+          "output": "Zgięcie/zgniecenie",
+          "caseSensitive": false
+        },
+        {
+          "input": "Прозора пластикова упаковка",
+          "inputType": "text",
+          "output": "Przezroczyste plastikowe opakowanie",
+          "caseSensitive": false
+        },
+        {
+          "input": "Мнение/нет дефектов",
+          "inputType": "text",
+          "output": "Opinia / Brak uszkodzen",
+          "caseSensitive": false
+        },
+        {
+          "input": "Пломба, що знімається або розламується",
+          "inputType": "text",
+          "output": "Jest konieczne naruszenie zamknięcia",
+          "caseSensitive": false
+        },
+        {
+          "input": "Структурне пошкодження",
+          "inputType": "text",
+          "output": "Uszkodzona struktura",
+          "caseSensitive": false
+        },
+        {
+          "input": " Scratch / Scuff",
+          "inputType": "text",
+          "output": "Zadrapanie/zarysowanie",
+          "caseSensitive": false
+        },
+        {
+          "input": "Место повреждения единицы товара",
+          "inputType": "text",
+          "output": "Miejsce uszkodzenia przedmiotu",
+          "caseSensitive": false
+        },
+        {
+          "input": "on the primary use surface",
+          "inputType": "text",
+          "output": "na glownej powierzchni",
+          "caseSensitive": false
+        },
+        {
+          "input": "Упаковка не закривається",
+          "inputType": "text",
+          "output": "Nie mozna zamknac paczki",
+          "caseSensitive": false
+        },
+        {
+          "input": "Термоусадочная обертка",
+          "inputType": "text",
+          "output": "Folia termokurczliwa",
+          "caseSensitive": false
+        },
+        {
+          "input": "Гигиенические ограничения",
+          "inputType": "text",
+          "output": "Problem higieniczny",
+          "caseSensitive": false
+        },
+        {
+          "input": "Скоби",
+          "inputType": "text",
+          "output": "Zszywki",
+          "caseSensitive": false
+        },
+        {
+          "input": "Товар не видно",
+          "inputType": "text",
+          "output": "Nie można zobaczyć produktu",
+          "caseSensitive": false
+        },
+        {
+          "input": "Частину позиції використано",
+          "inputType": "text",
+          "output": "Zużyta część produktu",
+          "caseSensitive": false
+        }
+      ],
+      "html": "none",
+      "enabled": true,
+      "mode": "auto&manual"
+    }
+  ]
+}
