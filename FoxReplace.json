@@ -149,13 +149,13 @@
         {
           "input": "A. Ознаки використання.",
           "inputType": "text",
-          "output": "A. Oznaki uzytkowania.",
+          "output": "A. Oznaki użytkowania.",
           "caseSensitive": false
         },
         {
           "input": "A. Признаки использования",
           "inputType": "text",
-          "output": "A. Oznaki uzytkowania.",
+          "output": "A. Oznaki użytkowania.",
           "caseSensitive": false
         },
         {
@@ -227,19 +227,19 @@
         {
           "input": "A. Отсутствует коробка.",
           "inputType": "text",
-          "output": "A. Brakujace opakowanie.",
+          "output": "A. Brakujące opakowanie.",
           "caseSensitive": false
         },
         {
           "input": "A. Відсутня коробка.",
           "inputType": "text",
-          "output": "A. Brakujace opakowanie.",
+          "output": "A. Brakujące opakowanie.",
           "caseSensitive": false
         },
         {
           "input": "A. Відсутні деталі.",
           "inputType": "text",
-          "output": "A. Brakujace czesci.",
+          "output": "A. Brakujące czesci.",
           "caseSensitive": false
         },
         {
@@ -263,7 +263,7 @@
         {
           "input": "A. Скотч НЕ є закриваючим механізмом.",
           "inputType": "text",
-          "output": "A. Tasma nie jest zamknieciem.",
+          "output": "A. Taśma nie jest zamknięciem.",
           "caseSensitive": false
         },
         {
@@ -299,13 +299,13 @@
         {
           "input": "A. Скотч є закриваючим механізмом.",
           "inputType": "text",
-          "output": "A. Tasma jest zamknieciem.",
+          "output": "A. Tasma jest zamknięciem.",
           "caseSensitive": false
         },
         {
           "input": "A. Tape is closing mechanism.",
           "inputType": "text",
-          "output": "A. Tasma jest zamknieciem.",
+          "output": "A. Tasma jest zamknięciem.",
           "caseSensitive": false
         },
         {
@@ -359,31 +359,31 @@
         {
           "input": "A. Порез или разрыв.",
           "inputType": "text",
-          "output": "A. Naciecie.",
+          "output": "A. Nacięcie.",
           "caseSensitive": false
         },
         {
           "input": "A. Клеевой диск.",
           "inputType": "text",
-          "output": "A. Tasma samoprzylepna.",
+          "output": "A. Taśma samoprzylepna.",
           "caseSensitive": false
         },
         {
           "input": "A. Кругла наклейка.",
           "inputType": "text",
-          "output": "A. Tasma samoprzylepna.",
+          "output": "A. Taśma samoprzylepna.",
           "caseSensitive": false
         },
         {
           "input": "A. Сгиб или излом.",
           "inputType": "text",
-          "output": "A. Zgiecie/zgniecenie.",
+          "output": "A. Zgięcie/zgniecenie.",
           "caseSensitive": false
         },
         {
           "input": " Q. Додайте пошкодження обкладинки ",
           "inputType": "text",
-          "output": "Q. Uszkodzenie okladki.",
+          "output": "Q. Uszkodzenie okładki.",
           "caseSensitive": false
         },
         {
@@ -395,7 +395,7 @@
         {
           "input": "A. Згин/зминання.",
           "inputType": "text",
-          "output": "A. Zgiecie/zgniecenie.",
+          "output": "A. Zgięcie/zgniecenie.",
           "caseSensitive": false
         },
         {
@@ -455,55 +455,55 @@
         {
           "input": "A. Bigger than 2x badge length.",
           "inputType": "text",
-          "output": "A. Wieksze niz 2x dlugosc plakietki.",
+          "output": "A. Większe niz 2x dlugość plakietki.",
           "caseSensitive": false
         },
         {
           "input": "A. Удвічі довше за бейдж.",
           "inputType": "text",
-          "output": "A. Wieksze niz 2x dlugosc plakietki.",
+          "output": "A. Większe niz 2x dlugość plakietki.",
           "caseSensitive": false
         },
         {
           "input": "A. Більше за ширину бейджа.",
           "inputType": "text",
-          "output": "A. Wieksze niz szerokosc plakietki.",
+          "output": "A. Większe niz szerokość plakietki.",
           "caseSensitive": false
         },
         {
           "input": "A. Badge width.",
           "inputType": "text",
-          "output": "A. Szerokosc plakietki.",
+          "output": "A. Szerokość plakietki.",
           "caseSensitive": false
         },
         {
           "input": "A. У ширину бейджа.",
           "inputType": "text",
-          "output": "A. Szerokosc plakietki.",
+          "output": "A. Szerokość plakietki.",
           "caseSensitive": false
         },
         {
           "input": "A. 1/2 Badge width.",
           "inputType": "text",
-          "output": "A. 1/2 szerokosci plakietki.",
+          "output": "A. 1/2 szerokości plakietki.",
           "caseSensitive": false
         },
         {
           "input": "A. 1/2 ширини бейджа.",
           "inputType": "text",
-          "output": "A. 1/2 szerokosci plakietki.",
+          "output": "A. 1/2 szerokości plakietki.",
           "caseSensitive": false
         },
         {
           "input": "A. Довжина бейджа.",
           "inputType": "text",
-          "output": "A. Dlugosc plakietki",
+          "output": "A. Długość plakietki",
           "caseSensitive": false
         },
         {
           "input": "A. Зім’ятий кут.",
           "inputType": "text",
-          "output": "A. Zgnieciony naroznik.",
+          "output": "A. Zgnieciony narożnik.",
           "caseSensitive": false
         },
         {
@@ -515,7 +515,7 @@
         {
           "input": "A. Розріз/розрив.",
           "inputType": "text",
-          "output": "A. Naciecie.",
+          "output": "A. Nacięcie.",
           "caseSensitive": false
         },
         {
@@ -551,13 +551,13 @@
         {
           "input": "A. Волосы.",
           "inputType": "text",
-          "output": "A. Wlosy.",
+          "output": "A. Włosy.",
           "caseSensitive": false
         },
         {
           "input": "A. Crushed corner.",
           "inputType": "text",
-          "output": "A. Zgnieciony naroznik",
+          "output": "A. Zgnieciony narożnik",
           "caseSensitive": false
         },
         {
@@ -569,7 +569,7 @@
         {
           "input": "A. Стрічка для обв’язування.",
           "inputType": "text",
-          "output": "A. Tasma mocujaca.",
+          "output": "A. Tasma mocująca.",
           "caseSensitive": false
         },
         {
@@ -593,13 +593,13 @@
         {
           "input": "A. Волосся, відбитки пальців або ворсинки.",
           "inputType": "text",
-          "output": "A. Wlosy, odciski palcow,klaczki.",
+          "output": "A. Włosy, odciski palcow,kłaczki.",
           "caseSensitive": false
         },
         {
           "input": "Q. Место повреждения единицы товара ",
           "inputType": "text",
-          "output": "Q. Wielkosc uszkodzenia przedmiotu ",
+          "output": "Q. Wielkość uszkodzenia przedmiotu ",
           "caseSensitive": false
         },
         {
@@ -623,7 +623,7 @@
         {
           "input": "A. Зламаність або тріщина.",
           "inputType": "text",
-          "output": "A. Zlamane, pekniete.",
+          "output": "A. Złamane, pęknięte.",
           "caseSensitive": false
         },
         {
@@ -653,19 +653,25 @@
         {
           "input": "A. Упаковка не закривається.",
           "inputType": "text",
-          "output": "A. Nie mozna zamknac paczki.",
+          "output": "A. Nie można zamknąć paczki.",
           "caseSensitive": false
         },
         {
           "input": " A. Зім'ятий кут / край.",
           "inputType": "text",
-          "output": "A. Zgnieciony naroznik.",
+          "output": "A. Zgnieciony narożnik.",
           "caseSensitive": false
         },
         {
           "input": "A. Вм’ятина.",
           "inputType": "text",
           "output": "A. Wgniecenie.",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Втручання у внутрішню упаковку.",
+          "inputType": "text",
+          "output": "A. Naruszone opakowanie wewnętrzne.",
           "caseSensitive": false
         }
       ],
