@@ -455,13 +455,13 @@
         {
           "input": "A. Bigger than 2x badge length.",
           "inputType": "text",
-          "output": "A. Większe niz 2x dlugość plakietki.",
+          "output": "A. Większe niz 2x długość plakietki.",
           "caseSensitive": false
         },
         {
           "input": "A. Удвічі довше за бейдж.",
           "inputType": "text",
-          "output": "A. Większe niz 2x dlugość plakietki.",
+          "output": "A. Większe niz 2x długość plakietki.",
           "caseSensitive": false
         },
         {
@@ -672,6 +672,18 @@
           "input": "A. Втручання у внутрішню упаковку.",
           "inputType": "text",
           "output": "A. Naruszone opakowanie wewnętrzne.",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Частину позиції використано.",
+          "inputType": "text",
+          "output": "A. Zużyta część produktu.",
+          "caseSensitive": false
+        },
+        {
+          "input": "A. Більш ніж удвічі довше за бейдж.",
+          "inputType": "text",
+          "output": "A. Większe niz 2x długość plakietki.",
           "caseSensitive": false
         }
       ],
